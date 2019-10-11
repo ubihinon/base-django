@@ -1,0 +1,14 @@
+DEBUG = True
+ALLOWED_HOSTS = ['*']
+SECRET_KEY = 'dev'
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'spelling',
+        'USER': 'spelling',
+        'PASSWORD': '111111',
+        'HOST': 'localhost',
+        'PORT': '5410',
+    },
+}
