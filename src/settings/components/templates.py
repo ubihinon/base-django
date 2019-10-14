@@ -1,6 +1,6 @@
 import os
 
-from settings.components.paths import BASE_DIR
+from src.settings.components.paths import BASE_DIR
 
 TEMPLATES = [
     {
